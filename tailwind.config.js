@@ -21,6 +21,7 @@ module.exports = {
         '.font-roboto':{
           fontFamily:'Roboto'
         },
+        
         '.logo-color':{
           backgroundColor:'rgba(243, 217, 217, 1)'
         },
@@ -32,6 +33,14 @@ module.exports = {
         },
         '.td2-color':{
           backgroundColor:'rgba(229, 229, 229, 1)'
+        },
+        '.color-prev': {
+          color: '#B5013E',
+          borderColor: '#B5013E',
+
+        },
+        '.hidden-icon':{
+          display: 'none'
         }
       });
     },

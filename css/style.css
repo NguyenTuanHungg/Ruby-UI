@@ -534,20 +534,36 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .ml-3 {
   margin-left: 0.75rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
 }
 
 .ml-\[37px\] {
   margin-left: 37px;
 }
 
-.mr-6 {
-  margin-right: 1.5rem;
-}
-
 .mr-7 {
   margin-right: 1.75rem;
+}
+
+.mr-9 {
+  margin-right: 2.25rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mt-6 {
@@ -558,12 +574,12 @@ video {
   margin-top: 15px;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
+.mt-8 {
+  margin-top: 2rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
@@ -572,6 +588,10 @@ video {
 
 .table {
   display: table;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-16 {
@@ -586,24 +606,28 @@ video {
   height: 25px;
 }
 
-.h-\[40px\] {
-  height: 40px;
+.h-\[32px\] {
+  height: 32px;
 }
 
-.h-5 {
-  height: 1.25rem;
+.h-\[40px\] {
+  height: 40px;
 }
 
 .w-12 {
   width: 3rem;
 }
 
+.w-2\/5 {
+  width: 40%;
+}
+
 .w-48 {
   width: 12rem;
 }
 
-.w-5 {
-  width: 1.25rem;
+.w-\[100px\] {
+  width: 100px;
 }
 
 .w-\[22px\] {
@@ -630,6 +654,10 @@ video {
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -642,33 +670,20 @@ video {
   overflow: auto;
 }
 
-.rounded-full {
-  border-radius: 9999px;
+.rounded {
+  border-radius: 0.25rem;
 }
 
-.rounded-sm {
-  border-radius: 0.125rem;
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .border {
   border-width: 1px;
 }
 
-.border-0 {
-  border-width: 0px;
-}
-
-.border-2 {
-  border-width: 2px;
-}
-
-.border-none {
-  border-style: none;
-}
-
-.border-gray-400 {
-  --tw-border-opacity: 1;
-  border-color: rgb(156 163 175 / var(--tw-border-opacity));
+.border-4 {
+  border-width: 4px;
 }
 
 .px-4 {
@@ -689,9 +704,9 @@ video {
   text-align: center;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-base {
@@ -703,10 +718,6 @@ video {
   font-weight: 700;
 }
 
-.font-thin {
-  font-weight: 100;
-}
-
 .leading-4 {
   line-height: 1rem;
 }
@@ -714,10 +725,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.accent-\[\#B5013E\] {
-  accent-color: #B5013E;
 }
 
 .font-roboto {
@@ -738,4 +745,13 @@ video {
 
 .td2-color {
   background-color: rgba(229, 229, 229, 1);
+}
+
+.color-prev {
+  color: #B5013E;
+  border-color: #B5013E;
+}
+
+.hidden-icon {
+  display: none;
 }
